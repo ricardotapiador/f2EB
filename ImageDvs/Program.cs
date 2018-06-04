@@ -16,7 +16,7 @@ namespace ImageDvs
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRAME2DVS());
+            Application.Run(new F2EB());
         }
     }
 }
