@@ -46,7 +46,7 @@ When you download the folder, you have to decompress it and click F2EB.exe to ru
 <p align="justify">
 Double-click on the F2EB.exe file to run it.A form as next image shows will be open.
 <p align="center">
-<img align="center" src="https://github.com/ricardotapiador/f2EB/blob/master/WikiImages/F2DVSInitialWindows.PNG">
+<img align="center" src="https://github.com/ricardotapiador/f2EB/blob/master/WikiImages/F2EB.PNG">
 </p>
 </p>
 In this windows we can select an image to be converted clicking on <b>Browse Image</b>. Image will be loaded and displayed as next picture. Image is resized to 128x128 due, the idea is convert the image as a DVS sensor image.
