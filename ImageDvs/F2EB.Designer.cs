@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2EB));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Image_box = new System.Windows.Forms.PictureBox();
             this.convert_method_list = new System.Windows.Forms.ComboBox();
             this.filter_list = new System.Windows.Forms.ComboBox();
             this.Miliseconds_frame = new System.Windows.Forms.NumericUpDown();
@@ -45,7 +45,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Image_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Miliseconds_frame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventlatency)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -53,23 +53,23 @@
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // Image_box
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Image_box.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pictureBox1.Location = new System.Drawing.Point(598, 73);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(737, 475);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.Image_box.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.Image_box.Location = new System.Drawing.Point(598, 73);
+            this.Image_box.Name = "Image_box";
+            this.Image_box.Size = new System.Drawing.Size(737, 475);
+            this.Image_box.TabIndex = 0;
+            this.Image_box.TabStop = false;
             // 
             // convert_method_list
             // 
             this.convert_method_list.FormattingEnabled = true;
             this.convert_method_list.Items.AddRange(new object[] {
-            "SCAN",
+            "Scan",
             "Random",
             "Bitwise",
             "4"});
@@ -225,7 +225,7 @@
             this.BrowseVideo.TabIndex = 25;
             this.BrowseVideo.Text = "Browse Video";
             this.BrowseVideo.UseVisualStyleBackColor = false;
-            this.BrowseVideo.Click += new System.EventHandler(this.BrowseVideo_Click_1);
+            this.BrowseVideo.Click += new System.EventHandler(this.BrowseVideo_Click);
             // 
             // tabControl1
             // 
@@ -275,12 +275,12 @@
             this.Controls.Add(this.eventlatency);
             this.Controls.Add(this.filter_list);
             this.Controls.Add(this.convert_method_list);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Image_box);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "F2EB";
             this.Text = "F2EB";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Image_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Miliseconds_frame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventlatency)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -294,7 +294,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Image_box;
         private System.Windows.Forms.ComboBox convert_method_list;
         private System.Windows.Forms.ComboBox filter_list;
         private System.Windows.Forms.NumericUpDown Miliseconds_frame;
