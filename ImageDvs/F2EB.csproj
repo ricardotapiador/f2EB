@@ -70,6 +70,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms.cs" />
+    <Compile Include="Controls\DataSetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataSetControl.Designer.cs">
+      <DependentUpon>DataSetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VideoConverter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\VideoConverter.Designer.cs">
+      <DependentUpon>VideoConverter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frame_Utils.cs" />
     <Compile Include="F2EB.cs">
       <SubType>Form</SubType>
@@ -77,8 +89,23 @@
     <Compile Include="F2EB.Designer.cs">
       <DependentUpon>F2EB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ImageUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageUserControl.Designer.cs">
+      <DependentUpon>ImageUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\DataSetControl.resx">
+      <DependentUpon>DataSetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImageUserControl.resx">
+      <DependentUpon>ImageUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\VideoConverter.resx">
+      <DependentUpon>VideoConverter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F2EB.resx">
       <DependentUpon>F2EB.cs</DependentUpon>
     </EmbeddedResource>
