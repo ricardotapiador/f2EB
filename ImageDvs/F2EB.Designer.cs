@@ -36,9 +36,9 @@ namespace ImageDvs
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.imageUserControl1 = new ImageUserControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.videoConverter1 = new VideoConverter();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataSetControl1 = new DataSetControl();
-            this.videoConverter1 = new VideoConverter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -47,11 +47,13 @@ namespace ImageDvs
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(28, 4);
+            this.tabControl1.Location = new System.Drawing.Point(25, 4);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -73,7 +75,9 @@ namespace ImageDvs
             // 
             // imageUserControl1
             // 
-            this.imageUserControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imageUserControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.imageUserControl1.AutoSize = true;
             this.imageUserControl1.Location = new System.Drawing.Point(14, 8);
             this.imageUserControl1.Name = "imageUserControl1";
@@ -91,6 +95,13 @@ namespace ImageDvs
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Video Tools";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // videoConverter1
+            // 
+            this.videoConverter1.Location = new System.Drawing.Point(21, 7);
+            this.videoConverter1.Name = "videoConverter1";
+            this.videoConverter1.Size = new System.Drawing.Size(561, 522);
+            this.videoConverter1.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -110,22 +121,17 @@ namespace ImageDvs
             this.dataSetControl1.Size = new System.Drawing.Size(644, 555);
             this.dataSetControl1.TabIndex = 0;
             // 
-            // videoConverter1
-            // 
-            this.videoConverter1.Location = new System.Drawing.Point(21, 7);
-            this.videoConverter1.Name = "videoConverter1";
-            this.videoConverter1.Size = new System.Drawing.Size(561, 522);
-            this.videoConverter1.TabIndex = 0;
-            // 
             // F2EB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 592);
             this.Controls.Add(this.tabControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(669, 639);
+            this.MinimumSize = new System.Drawing.Size(669, 639);
             this.Name = "F2EB";
             this.Text = "F2EB";
             this.tabControl1.ResumeLayout(false);
